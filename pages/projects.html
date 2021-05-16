@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projects</title>
+    </head>
+
+    <body style="background-color: #08112a;">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="../styles/style.css" rel="stylesheet" type="text/css">
+        <link href="../styles/text-style.css" rel="stylesheet" type="text/css">
+        <link href="../styles/spacing.css" rel="stylesheet" type="text/css">
+        
+        <div id="page-container">
+            <div class="header-wrapper">
+                <header class="float-container">
+                    <div class="float-child">
+                        ANDERSON CHAUPHAN
+                    </div>
+                    <div class="float-child" id="header-links">
+                        <a href="../index.html" class="text-default link">ABOUT</a>
+                        <a href="projects.html" class="text-default link">PROJECTS</a>
+                    </div>
+                </header>
+            </div>
+
+            <main class="main">
+                <div class="project-list y-pad40">
+
+                    <!-- k-means image filtering  -->
+                    
+                    <button class="accordion text-default">
+                        <div class="float-child x-pad10">
+                            <p class="accordion-header-text">k-means Image Filtering</p>
+                            <p class="accordion-body-text text-color-yellow">Imagine color filtering - Python </p>
+                        </div>
+                        <div class="float-right x-pad10">
+                            <i class="accordion-icon fas fa-chevron-left"></i>
+                        </div>
+                    </button>
+                    <div class="panel x-pad10">
+                        <img src="../media/k-means-progression.gif" alt="description of gif" class="center"/>
+                        <div class="panel-links" style="margin-left: 158px;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/image-filtering-with-k-means-clustering" class="text-color-orange link">repository</a>  
+                        </div>
+                        <h3 class="text-default text-color-yellow">Description: </h3>   
+                        <p class="text-default text-panel">
+                            Simple imagine color filtering by inputting an image and a set number of colors to filter. Uses a k-means clustering algorithm to find
+                            organize pixels to the cluster that is closes to the pixel's color. The color of each cluster is then re-evaluated to the average color of all the 
+                            pixels which belong to that cluster and then each pixel's color is then assigned to their corresponding cluster's new color. This process
+                            continues until there is little to no changes in cluster color. 
+                        </p>
+                        <h3 class="text-default text-color-yellow">Languages: </h3> 
+                        <p class="text-default text-panel">Python</p>
+                    </div>
+
+                    <!-- eggs with legs -->
+
+                    <button class="accordion text-default">
+                        <div class="float-child x-pad10">
+                            <p class="accordion-header-text">Eggs with Legs</p>
+                            <p class="accordion-body-text text-color-yellow">iOS Mobile Game - Swift</p>
+                        </div>
+                        <div class="float-right x-pad10">
+                            <i class="accordion-icon fas fa-chevron-left"></i>
+                        </div>
+                    </button>
+                    <div class="panel x-pad10">
+                        <video width="630" height="320" controls class="">
+                            <source src="../media/eggs-with-legs.mp4" type="video/mp4">
+                            Your browser does not support this video.
+                        </video>
+                        <div class="panel-links" style="margin-left: 8px;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/Eggs-with-Legs" class="text-color-orange link">repository</a>  
+                        </div>
+                        <h3 class="text-default text-color-yellow">Description: </h3>   
+                        <p class="text-default text-panel">
+                            An experimental mobile game developed along with a few friends. The game is meant to be a tower defence style game with
+                            with the story being that the player is a farmer trying to defend his farm from a horde of angry eggs with legs.
+                        </p>
+                        <p class="text-default text-panel">
+                            Through this project, we learned a lot about the planning, designing, and development process of software development while working as a team.
+
+                        </p>
+                        <h3 class="text-default text-color-yellow">Languages: </h3> 
+                        <p class="text-default text-panel">Swift</p>
+                    </div>
+
+                    <!-- physics energy conservation simulation -->
+
+                    <button class="accordion text-default">
+                        <div class="float-child x-pad10">
+                            <p class="accordion-header-text">Physics Energy Conservation Simulation</p>
+                            <p class="accordion-body-text text-color-yellow">Showcases the conservation of basic energy types - Java</p>
+                        </div>
+                        <div class="float-right x-pad10">
+                            <i class="accordion-icon fas fa-chevron-left"></i>
+                        </div>
+                    </button>
+                    <div class="panel x-pad10">
+                        <video width="630" height="300" autoplay muted loop class="">
+                            <source src="../media/physics-sim.mp4" type="video/mp4">
+                            Your browser does not support this video.
+                        </video>
+                        
+                        <div class="panel-links" style="margin-left: 48px;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/Physics-Energy-Simulation" class="text-color-orange link">repository</a>  
+                        </div>
+                        <h3 class="text-default text-color-yellow">Description: </h3>   
+                        <p class="text-default text-panel">
+                            A very simplified simulation on the conservation of the three basic types of mechanical energy. Demenstrated through
+                            the use of a slingshot with some spring constant and a rock of some mass, shows how energy is being conservered through 
+                            spring potential, gravitational potential, and kinetic energy.
+                        </p>
+                        <p class="text-default text-panel">
+                            This project helped with grasping an object-oriented style of programming.
+                        </p>
+                        <h3 class="text-default text-color-yellow">Languages: </h3> 
+                        <p class="text-default text-panel">Java</p>
+                    </div>
+                </div>
+            </main>
+
+            <div class="footer-wrapper">
+                <footer class="float-container" >
+                    <div class="float-child">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan" class="text-color-yellow link text-footer-style">Github</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anderson-chauphan-50044520b/" class="text-color-orange link text-footer-style">Linkdin</a> 
+                    </div>    
+                   <div class="" id="footer-email">
+                        <p class="text-default text-no-margin text-footer-style">chauphana@outlook.com</p>                   
+                   </div>
+                </footer>  
+            </div>
+        </div>   
+        
+
+        <script src="https://kit.fontawesome.com/0d2af5c99d.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../scripts/main.js"></script>
+    </body>
+
+</html>

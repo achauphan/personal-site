@@ -1,0 +1,54 @@
+/*
+dark navy: #08112a
+light blue: #30dfc8
+yellow: #f7ea64
+orange: #de7449
+
+*/
+p {
+    word-wrap: break-word;
+    font-size: 20px;
+    /* padding-top: 10px; */
+}
+
+.text-no-margin {
+    margin: 0;
+}
+
+.text-default {
+    color: #30dfc8;
+    overflow: hidden;
+    /* margin: 0; */
+}
+.text-color-orange {
+    color: #de7449;
+}
+
+.text-color-yellow {
+    color: #f7ea64;
+}
+
+.text-footer-style {
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.text-panel {
+    font-size: 14px;
+}
+h3 {
+    margin-bottom: 3px;
+}
+.accordion-header-text {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+.accordion-body-text {
+    font-size: 12px;
+    width: 100%;
+}

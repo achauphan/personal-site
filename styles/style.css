@@ -1,0 +1,156 @@
+/*
+dark navy: #08112a
+light navy: #173179
+light blue: #30dfc8
+yellow: #f7ea64
+orange: #de7449
+
+Colors inspired by GMK Metropolis V2 
+*/
+html {
+    font-family: input-mono-narrow, SFMono-Regular, Consolas, Menlo, monospace;
+    overflow-y: scroll;
+}
+
+.main {
+    position: relative;
+    margin: auto;
+    max-width: 650px;
+    /* height: 700px; */
+    /* border: 3px solid #30dfc8; */
+    /* padding: 10px; */
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    /* border: 3px solid #30dfc8; */
+    margin: auto;
+    max-width: 650px;
+    height: 30px;
+    
+    padding: 10px;
+    color: #30dfc8;
+    font-size: 25px;
+
+}
+.footer-wrapper {
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+footer {
+    /* border: 3px solid #30dfc8; */
+    margin: auto;
+    max-width: 650px;
+    height:50px;
+    padding: 10px;
+}
+
+#footer-links {
+    max-width: 250px;
+    float: left;
+}
+
+#footer-email {
+    max-width: 300px;
+    float: right;
+    text-align: right;
+}
+
+#header-links {
+    float: right;
+    text-align: right;
+}
+
+.cont-aboutMe {
+    /* border: 3px solid #59e5d3; */
+    margin: auto;
+}
+
+/* .float-container {
+    /* border: 3px solid #fff; */
+
+.float-child {
+    width: 50%;
+    float: left;
+    
+    /* border: 2px solid red; */
+}  
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+    margin-top: 25px;
+}
+
+
+/* projects.html */
+.accordion {
+    background-color: #08112a;
+    color: #173179;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 60px;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-left: 2px solid #30dfc8;
+    border-radius: 5px;
+}
+
+.accordion:hover {
+    background-color: #173179;
+}
+.active {
+    background-color: #173179;
+}
+.accordion-icon {
+    vertical-align: center;
+    float: right;
+}
+.accordion:after {
+    color: #30dfc8;
+    font-size: 25px;
+    float: right;
+    margin:auto;
+  }
+  
+  .active:after {
+    color: #30dfc8;
+    font-size: 32px;
+  }
+
+.panel {
+    padding: 15px;
+    height:0;
+    max-height: 550px;
+    transition: height 0.2s ease-out;
+    background-color: #173179;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.panel-links {
+    font-size: 14px;
+}
