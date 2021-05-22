@@ -2,10 +2,13 @@
 <html lang="en">
     <head>
         <title>Projects</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    
     </head>
 
     <body style="background-color: #08112a;">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        
         <link href="../styles/style.css" rel="stylesheet" type="text/css">
         <link href="../styles/text-style.css" rel="stylesheet" type="text/css">
         <link href="../styles/spacing.css" rel="stylesheet" type="text/css">
@@ -26,6 +29,61 @@
             <main class="main">
                 <div class="project-list y-pad40">
 
+                    <!-- FTP-backup-tool -->
+
+                    <button class="accordion text-default">
+                        <div class="float-child x-pad10">
+                            <p class="accordion-header-text">Remote File Backup Tool</p>
+                            <p class="accordion-body-text text-color-yellow">Remote File Backup using FTP - Python </p>
+                        </div>
+                        <div class="float-right x-pad10">
+                            <i class="accordion-icon fas fa-chevron-left"></i>
+                        </div>
+                    </button>
+                    <div class="panel x-pad10" style="max-height: 430px">
+                        <img src="../images/ftp-backup-tool.PNG" alt="image" style="width: 100%;"/>
+                        <div class="panel-links" style="margin-left: 8px;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/FTP-Backup-Tool" class="text-color-orange link">repository</a>  
+                        </div>
+                        <h3 class="text-default text-color-yellow">Description: </h3>   
+                        <p class="text-default text-panel">
+                            A file backup tool that can backup files from a remote server onto your local machine. Using FTP and Zipfile libraries, is able to establish
+                            a remote connection with given login details and copy a remote directoy locally. With addition to a backup profile system, the user can 
+                            create multiple backup profiles pointing to different file servers and/or directories to quickly and easily backup remote files.
+                        </p>
+                        <h3 class="text-default text-color-yellow">Languages: </h3> 
+                        <p class="text-default text-panel">Python</p>
+                        <h3 class="text-default text-color-yellow">Releases: </h3> 
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/FTP-Backup-Tool/releases" class="text-color-orange link">v1.0.0</a>
+                    </div>
+                    
+                    <!-- personal site -->
+
+                    <button class="accordion text-default">
+                        <div class="float-child x-pad10">
+                            <p class="accordion-header-text">Personal Website</p>
+                            <p class="accordion-body-text text-color-yellow">My own website! - HTML/CSS, jQuery, AWS/EC2/Route53 </p>
+                        </div>
+                        <div class="float-right x-pad10">
+                            <i class="accordion-icon fas fa-chevron-left"></i>
+                        </div>
+                    </button>
+                    <div class="panel x-pad10" style="max-height: 300px">
+                        <div class="panel-links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/personal-site" class="text-color-orange link">repository</a>  
+                        </div>
+                        <h3 class="text-default text-color-yellow">Description: </h3>   
+                        <p class="text-default text-panel">
+                            My own personal website to display my projects and progress as a software developer.
+                            The goal was to learn basic front-end web development with plans on implementing and using back-end services and 
+                            frameworks to practice and learn to become a full-stack developer.
+                        </p>
+                        <h3 class="text-default text-color-yellow">Languages: </h3> 
+                        <p class="text-default text-panel">HTML/CSS, jQuery</p>
+                        <h3 class="text-default text-color-yellow">Services: </h3> 
+                        <p class="text-default text-panel">Deployed on a AWS EC2 instance with DNS routing through Route53 (yes this is overkill)</p>
+                    </div>
+
                     <!-- k-means image filtering  -->
                     
                     <button class="accordion text-default">
@@ -37,7 +95,7 @@
                             <i class="accordion-icon fas fa-chevron-left"></i>
                         </div>
                     </button>
-                    <div class="panel x-pad10">
+                    <div class="panel x-pad10 " style="max-height: 480px">
                         <img src="../media/k-means-progression.gif" alt="description of gif" class="center"/>
                         <div class="panel-links" style="margin-left: 158px;">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan/image-filtering-with-k-means-clustering" class="text-color-orange link">repository</a>  
@@ -64,7 +122,7 @@
                             <i class="accordion-icon fas fa-chevron-left"></i>
                         </div>
                     </button>
-                    <div class="panel x-pad10">
+                    <div class="panel x-pad10"style="max-height: 565px">
                         <video width="630" height="320" controls class="">
                             <source src="../media/eggs-with-legs.mp4" type="video/mp4">
                             Your browser does not support this video.
@@ -96,7 +154,7 @@
                             <i class="accordion-icon fas fa-chevron-left"></i>
                         </div>
                     </button>
-                    <div class="panel x-pad10">
+                    <div class="panel x-pad10" style="max-height: 550px">
                         <video width="630" height="300" autoplay muted loop class="">
                             <source src="../media/physics-sim.mp4" type="video/mp4">
                             Your browser does not support this video.
@@ -123,19 +181,24 @@
             <div class="footer-wrapper">
                 <footer class="float-container" >
                     <div class="float-child">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan" class="text-color-yellow link text-footer-style">Github</a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anderson-chauphan-50044520b/" class="text-color-orange link text-footer-style">Linkdin</a> 
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/achauphan" class="text-color-yellow link text-footer-style"><i class="fab fa-github footer-icon-font"></i>Github</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anderson-chauphan-50044520b/" class="text-color-orange link text-footer-style" style="margin-left: 10px;"><i class="fab fa-linkedin-in footer-icon-font"></i>Linkedin</a> 
                     </div>    
                    <div class="" id="footer-email">
-                        <p class="text-default text-no-margin text-footer-style">chauphana@outlook.com</p>                   
-                   </div>
+                        <div class="tooltip">
+                            <button class="btn btn-copy text-default text-no-margin text-footer-style copy-to-clipboard"><i class="far fa-copy footer-icon-font"></i>chauphana@outlook.com</button>
+                            <span class="tooltip-text">click to copy</span>
+                        </div>
+                    </div>
                 </footer>  
             </div>
         </div>   
         
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
         <script src="https://kit.fontawesome.com/0d2af5c99d.js" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
         <script type="text/javascript" src="../scripts/main.js"></script>
     </body>
 

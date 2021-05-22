@@ -4,6 +4,7 @@ light navy: #173179
 light blue: #30dfc8
 yellow: #f7ea64
 orange: #de7449
+green: #78F127
 
 Colors inspired by GMK Metropolis V2 
 */
@@ -135,7 +136,7 @@ footer {
 .panel {
     padding: 15px;
     height:0;
-    max-height: 550px;
+    /* max-height: 550px; */
     transition: height 0.2s ease-out;
     background-color: #173179;
     display: none;
@@ -154,3 +155,62 @@ footer {
 .panel-links {
     font-size: 14px;
 }
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    /* font-size: 16px; */
+    cursor: pointer;
+    display: inline-block;  
+    font-family: input-mono-narrow, SFMono-Regular, Consolas, Menlo, monospace;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn-copy {
+    padding: 0;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted #30dfc8; */
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 150px;
+    background-color: #173179;
+    color: #30dfc8;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 5px;
+    
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -75px;
+    z-index: 1;
+}
+
+.tooltip .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #173179 transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+
+
