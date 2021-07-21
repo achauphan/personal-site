@@ -38,8 +38,16 @@ header{
     padding: 10px;
     color: #30dfc8;
     font-size: 25px;
-
 }
+
+.border-bottom {
+    border-bottom: 2px solid #de7449;
+    position: relative;
+    top: 100%;
+    width: 36%;
+    bottom: 0;
+}
+
 .footer-wrapper {
     width: 100%;
     margin-top: 100px;
@@ -70,6 +78,31 @@ footer {
     float: right;
     text-align: right;
 }
+
+
+.left-decor-container {
+    position: fixed;
+    display: inline-block;
+    vertical-align: middle;
+    /* float: left; */
+    left: 20%;
+    height: 100%;
+    width: 100px;
+    top: 0;
+}
+
+.right-decor-container {
+    position: fixed;
+    display: inline-block;
+    vertical-align: middle;
+    /* float: left; */
+    right: 20%;
+    height: 100%;
+    width: 100px;
+    top: 0;
+}
+
+
 
 .cont-aboutMe {
     /* border: 3px solid #59e5d3; */
